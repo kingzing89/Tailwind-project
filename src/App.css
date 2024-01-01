@@ -1,38 +1,54 @@
-.App {
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.txt-2 {
+
+  background: linear-gradient(180deg, #FFF 40%, #001E2B 109.19%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-self: stretch;
   text-align: center;
+  font-family: 'Satoshi', sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+
+
+
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.back {
+  background-color: #21313C;
+  padding-top: 100px;
+  height: 920px;
+  margin-top: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.txt {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Satoshi', sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  align-self: stretch;
+
+}
+
+.sub-txt{
+  color: #F7F8F8;
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+  align-self: stretch;
+  margin-top: 15px;
+
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
